@@ -14,7 +14,9 @@ const ProductCard = ({ product }) => {
 
   return (
     <div className="product-card">
-      <div className="product-image">{product.image}</div>
+      <div className="product-image">
+        <img src={product.image} alt={product.name} />
+      </div>
       <div className="product-info">
         <div className="product-name">{product.name}</div>
         <div className="product-price">${product.price.toFixed(2)}</div>

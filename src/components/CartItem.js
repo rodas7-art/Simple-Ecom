@@ -7,11 +7,18 @@ const CartItem = ({ item }) => {
 
   return (
     <div className="cart-item">
-      <div className="cart-item-image">{item.image}</div>
+      {/* Product Image */}
+      <div className="cart-item-image">
+        <img src={item.image} alt={item.name} />
+      </div>
+ 
+      {/* Product Info */}
       <div className="cart-item-info">
         <div className="cart-item-name">{item.name}</div>
         <div className="cart-item-price">${item.price.toFixed(2)} each</div>
       </div>
+
+      {/* Controls */}
       <div className="cart-item-controls">
         <div className="quantity-controls">
           <button
@@ -28,10 +35,7 @@ const CartItem = ({ item }) => {
             +
           </button>
         </div>
-        <button
-          className="remove-btn"
-          onClick={() => removeFromCart(item.id)}
-        >
+        <button className="remove-btn" onClick={() => removeFromCart(item.id)}>
           Remove
         </button>
       </div>

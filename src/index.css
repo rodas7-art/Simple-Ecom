@@ -4,13 +4,21 @@
   box-sizing: border-box;
 }
 
+:root {
+  --bg-main: #f2e6d8;       
+  --card-bg: #fffaf5;       
+  --accent: #d19a66;        
+  --accent-dark: #8b5e34; 
+  --text-main: #3b2415;     
+  --text-muted: #7b5436;    
+  --success: #7a9b57;       
+}
+
+
+
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  min-height: 100vh;
-  color: #333;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-main);
+  color: var(--text-main);
 }
 
 code {
