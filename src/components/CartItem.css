@@ -1,5 +1,5 @@
 .cart-item {
-  background: #fffaf5; /* warm off-white card */
+  background: #fffaf5; 
   border-radius: 16px;
   padding: 1.5rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
@@ -19,7 +19,7 @@
   flex-shrink: 0;
   overflow: hidden;
   border-radius: 12px;
-  background: #f3e6d8; /* light brown background */
+  background: #f3e6d8; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,7 +28,7 @@
 .cart-item-image img {
   width: 100%;
   height: 100%;
-  object-fit: contain; /* keeps all images fully visible */
+  object-fit: contain; 
 }
 
 .cart-item-info {
@@ -39,12 +39,12 @@
   font-size: 1.25rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
-  color: #3b2415; /* dark brown text */
+  color: #3b2415; 
 }
 
 .cart-item-price {
   font-size: 1.1rem;
-  color: #8b5e34; /* warm brown accent */
+  color: #8b5e34; 
   font-weight: 600;
 }
 
@@ -65,7 +65,7 @@
 
 .quantity-btn {
   background: white;
-  border: 2px solid #c78f5d; /* warm caramel border */
+  border: 2px solid #c78f5d; 
   color: #c78f5d;
   width: 35px;
   height: 35px;
@@ -97,7 +97,7 @@
 }
 
 .remove-btn {
-  background: #d96c5c; /* muted red for remove */
+  background: #d96c5c; 
   color: white;
   border: none;
   padding: 0.75rem 1.5rem;
